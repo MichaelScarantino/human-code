@@ -1,5 +1,52 @@
-Lista Ingredienti Pasta: [semola, farina 00, spinaci, uova, tuorli]
+Lista Ingredienti pasta: [semola, farina 00, spinaci, uova, tuorli]
 
 Lista ingredienti Ragù: [trito di manzo, pancetta, carote, sedano, cipolle, vino rosso, passato pomodroro, passato pomodoro, olio extra, pepe nero, sale, brodo vegetale]
 
 Lista Condimenti: [besciamella, parmigiano]
+
+Preparazione Pasta
+    prelevare ingredienti in lista ingredienti pasta
+        ? SE ingredienti = lista ingredienti pasta 
+            - procedi ad impastare
+            - ricava sfoglie
+
+        : ALTRIMENTI 
+            - segnala ingrediente mancante
+
+Preparazione Ragù
+    prelevare ingredienti in lista ingredienti Ragù
+        ? SE ingredienti = lista ingredienti Ragù 
+            - procedi alla Preparazione
+                - prepara brodo vegetale 
+                - fare soffritto
+                - rosolare manzo e pancetta
+                - sfumare con vino rosso
+                - unire passato di pomodoro
+                - aggiungere
+                   - olio
+                   - sale
+                   - pepe
+                - cuocere per 3 ore
+
+        SE cottura ok Procedere all'assemblaggio
+
+Stesura
+    creare strati con:
+        - sfoglia di impasto 
+        - sugo
+        - besciamella
+        - parmigiano
+
+        SE strati = altezza teglia termina procedura Preparazione
+        
+Prendere teglia con Preparazione
+    - mettere in forno
+    - impostare temperatura = 180°
+    - proseguire la cottura per 40 min
+
+    SE cottura = 40 min estrarre dal forno
+    
+    
+
+
+        
