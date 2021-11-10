@@ -1,0 +1,5 @@
+Lista Ingredienti Pasta: [semola, farina 00, spinaci, uova, tuorli]
+
+Lista ingredienti Ragù: [trito di manzo, pancetta, carote, sedano, cipolle, vino rosso, passato pomodroro, passato pomodoro, olio extra, pepe nero, sale, brodo vegetale]
+
+Lista Condimenti: [besciamella, parmigiano]
